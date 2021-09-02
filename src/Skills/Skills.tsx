@@ -7,10 +7,16 @@ export const Skills = () => {
         <div className={s.main}>
             <div className={s.skillsContainer}>
                 <h2 className={s.title}>MY SKILLS</h2>
-                <div className={s.skills}>
-                    <Skill title={"React"} />
-                    <Skill title={"Redux"}/>
-                    <Skill title={"TypeScript"}/>
+                <div className={s.container}>
+                    <div className={s.skills}>
+                        <Skill title={"React"}/>
+                        <Skill title={"Redux"}/>
+                        <Skill title={"TypeScript"}/>
+                        <Skill title={"Css"}/>
+                        <Skill title={"Css"}/>
+                        <Skill title={"Css"}/>
+
+                    </div>
                 </div>
             </div>
         </div>
