@@ -1,0 +1,26 @@
+.main {
+
+    height: 100vh;
+    background-color: #ffcaf7;
+
+}
+.container {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    width: 500px;
+    background-color: #fff7c1;
+}
+
+.photo {
+    width: 500px;
+    height: 650px;
+    background-color: #fff7c1;
+}
