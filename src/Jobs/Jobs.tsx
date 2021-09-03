@@ -7,13 +7,14 @@ export const Jobs = () => {
         <div className={s.main}>
 
             <div className={s.container}>
-                <h2 className={s.text}>MY JOBS</h2>
+                <h2 className={s.text}>MY WORKS</h2>
 
                 <div className={s.containerMini}>
 
                         <Job/>
                         <Job/>
                         <Job/>
+
 
                 </div>
 

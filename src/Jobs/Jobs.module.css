@@ -6,7 +6,6 @@
 .container {
     display: flex;
     height: 100%;
-    width: 80%;
     margin: 0 auto;
     border: 1px solid;
     align-items: center;
@@ -23,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     height: 80%;
-    width: 80%;
+    width: 90%;
     border: 1px solid;
 
 }

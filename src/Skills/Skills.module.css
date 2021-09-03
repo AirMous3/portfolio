@@ -1,19 +1,22 @@
 .main {
     height: 100vh;
-    background-color: #111
+    background-color: #111;
+    border-bottom: 1px solid hsla(0, 0%, 40%, .3);
+    border-top: 1px solid hsla(0, 0%, 40%, .3);
 }
 
 
 .skillsContainer {
     display: flex;
     height: 100%;
-    width: 80%;
     margin: 0 auto;
     align-items: center;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
+
 
 }
+
 .container {
     display: flex;
     height: 100%;
@@ -24,13 +27,15 @@
 }
 
 .title {
+    padding: 10px;
     display: flex;
     color: white;
     font-size: 40px;
 }
+
 .skills {
     display: flex;
-    border: 1px solid hsla(0,0%,40%,.3);
+    border: 1px solid hsla(0, 0%, 40%, .3);
     width: 100%;
     flex-wrap: wrap;
 }
