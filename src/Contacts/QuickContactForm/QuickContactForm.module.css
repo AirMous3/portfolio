@@ -1,0 +1,33 @@
+.main {
+    font-size: 20px;
+    font-family: Heebo,math;
+
+}
+.input {
+    background-color: #202020;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+    width: 300px;
+    color: white;
+    padding: 10px;
+}
+.textArea {
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    background-color: #202020;
+    resize: none;
+    color: white;
+    outline: none;
+    border: none;
+}
+.button {
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 100px;
+    background-color: #202020;
+    color: white;
+}

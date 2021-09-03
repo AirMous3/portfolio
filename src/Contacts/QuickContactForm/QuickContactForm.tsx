@@ -8,25 +8,25 @@ export const QuickContactForm = () => {
             <h2>Quick Contact Form</h2>
             <div>
                 <form method="post">
-                    <div>
-                        <input type="text" placeholder="Your Name"/>
+                    <div style={{marginTop: "20px"}}>
+                        <input className={s.input} type="text" placeholder="Your Name"/>
                     </div>
                     <div>
-                        <input type="email" placeholder="Your Email"/>
+                        <input className={s.input} type="email" placeholder="Your Email"/>
                     </div>
                     <div>
-                        <input type="text" placeholder="Your Phone"/>
+                        <input className={s.input} type="text" placeholder="Your Phone"/>
                     </div>
                     <div>
-                        <input type="text" placeholder="Address"/>
+                        <input className={s.input} type="text" placeholder="Address"/>
                     </div>
-                    <div>
+                    <div style={{marginTop: "20px"}}>
 
-                        <textarea placeholder="Your Massage..."/>
+                        <textarea className={s.textArea} placeholder="Your Massage..."/>
 
                     </div>
-                    <div>
-                        <button type="submit">Submit</button>
+                    <div style={{marginTop: "10px"}}>
+                        <button className={s.button} type="submit">Submit</button>
 
                     </div>
 
