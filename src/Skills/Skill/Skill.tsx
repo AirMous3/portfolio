@@ -16,6 +16,7 @@ export const Skill = (props: PropsType) => {
                          alt="hedgehog"/>
                 </div>
                 <h3>{props.title}</h3>
+
                 <span className={s.description}> blballbal bllblbalblfdsf dsf dsfdsfdfddfsghfdsgh fdghsdghfdgshgh dfgshfdghsghfdsgfs fdhsgfgsdghfdsg dsadd sa dsa dsadsasdadsa dsadsadsa dsadsadas da blalbalbllab blalbalblabla</span>
             </div>
         </div>
