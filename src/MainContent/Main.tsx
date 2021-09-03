@@ -1,5 +1,6 @@
 import React from "react"
 import s from "./Main.module.css"
+import redSonic from "../assets/image/MainLogo/RedSonic.png"
 
 
 export const Main = () => {
@@ -10,15 +11,18 @@ export const Main = () => {
                 <span>
                     Hi there
                 </span>
-                    <h1>
-                        ABOUT ME
-                    </h1>
                     <p>
-                        Front-End developer
+                        I'm HOLAKHAU ILYA
                     </p>
+                    <h1>
+                        Front-End developer
+                    </h1>
+
                 </div>
 
-                <div className={s.photo}>picture</div>
+                <div className={s.photo}>
+                    <img style={{height: "100vh", position: "absolute"}} src={redSonic} alt="RedSonic"/>
+                </div>
             </div>
         </div>
     )

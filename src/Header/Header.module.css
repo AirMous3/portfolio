@@ -1,8 +1,8 @@
 .header {
     height: 80px;
-    background-color: #fff685;
+    background-color: #111111;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    border: 1px solid;
+    border-bottom: 1px solid hsla(0,0%,40%,.3);
 }

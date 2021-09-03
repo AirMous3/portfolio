@@ -1,0 +1,30 @@
+.main {
+    height: 100vh;
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.text {
+    color: white;
+    font-size: 40px;
+}
+
+.containerMini {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    border: 1px solid;
+
+}
+
