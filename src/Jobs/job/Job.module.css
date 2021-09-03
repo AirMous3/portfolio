@@ -28,5 +28,17 @@
 .wrapper {
     color: white;
     height: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.description {
+    border: 1px solid hsla(0,0%,40%,.3);
+    padding: 20px;
+    text-align: center;
+    background-color: #111;
 
 }

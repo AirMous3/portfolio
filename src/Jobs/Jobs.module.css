@@ -18,9 +18,10 @@
     font-size: 40px;
 }
 
-.containerMini {
+.wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     height: 80%;
     width: 90%;
     border: 1px solid;

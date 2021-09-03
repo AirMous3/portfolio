@@ -10,7 +10,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     font-size: 30px;
     height: 100%;

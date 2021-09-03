@@ -1,0 +1,43 @@
+.main {
+    height: 80vh;
+    background-color: #000;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.container {
+    border: 1px solid white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.contactPage {
+    height: 80%;
+    width: 20%;
+    border: 1px solid;
+}
+
+.quickContact {
+    display: flex;
+    border: 1px solid;
+    height: 80%;
+    width: 20%;
+}
+
+.image {
+    height: 70%;
+
+    border: 1px solid;
+}
+
+.text {
+    font-size: 40px;
+    margin-bottom: -50px;
+}

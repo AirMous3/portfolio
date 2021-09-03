@@ -1,13 +1,13 @@
 import React from "react"
 import s from "./DistanceWork.module.css"
-import redSonic from "../assets/image/1000px.png"
+import pinkSonic from "../assets/image/1000px.png"
 
 export const DistanceWork = () => {
     return (
         <div className={s.main}>
             <div className={s.container}>
                 <h2>
-                    Рассматриваю варианты удалённой работы
+                    Considering options for remote work
                 </h2>
                 <div className={s.wrapper}>
                     <span> dsadsadsadsdsads dsadsadsadsadsadsa dsadsadsadsadsa dsadsadsadsadsadsadsa dsadsadsadsa</span>
@@ -15,7 +15,7 @@ export const DistanceWork = () => {
 
             </div>
             <div className={s.photo}>
-                <img src={redSonic} alt="redSonic"/>
+                <img src={pinkSonic} alt="redSonic"/>
             </div>
         </div>
     )

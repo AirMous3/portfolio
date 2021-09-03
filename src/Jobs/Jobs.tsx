@@ -9,11 +9,11 @@ export const Jobs = () => {
             <div className={s.container}>
                 <h2 className={s.text}>MY WORKS</h2>
 
-                <div className={s.containerMini}>
+                <div className={s.wrapper}>
 
-                        <Job/>
-                        <Job/>
-                        <Job/>
+                    <Job/>
+                    <Job/>
+                    <Job/>
 
 
                 </div>

@@ -5,6 +5,7 @@
     position: relative;
 
 
+
 }
 .nav::before{
     content: "";
@@ -20,4 +21,6 @@
     margin-right: 70px;
     text-decoration: none;
     color: white;
+    position: relative;
+    z-index: 9;
 }
