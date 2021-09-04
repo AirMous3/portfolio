@@ -10,10 +10,10 @@
 
 .container {
     height: 100%;
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -27,11 +27,12 @@
     height: 80%;
     width: 20%;
 }
-
+.imageWrapper {
+    margin-left: 100px;
+}
 .image {
-    height: 70%;
 
-    border: 1px solid;
+    width: 77%;
 }
 
 .text {

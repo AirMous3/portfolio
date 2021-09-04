@@ -14,8 +14,8 @@ export const Contacts = () => {
                     <MyContacts/>
                 </div>
 
-                <div className={s.image}>
-                    {/*<img src={sonic} alt="blueSonic"/>*/}
+                <div className={s.imageWrapper}>
+                    <img className={s.image} src={sonic} alt="blueSonic"/>
                 </div>
 
                 <div className={s.quickContact}>
