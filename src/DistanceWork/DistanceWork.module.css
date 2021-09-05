@@ -1,37 +1,40 @@
 .main {
-    height: 70vh;
+    min-height: 70vh;
     background-color: #202020;
     color: white;
-    display: flex;
-    justify-content: space-around;
 
 }
 
 .container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     text-align: center;
     font-size: 30px;
-    height: 100%;
-    width: 60%;
+
+}
+
+.textBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
 }
 
 .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50%;
-    width: 70%;
-    margin-left: 150px;
-    border: 1px solid hsla(0,0%,40%,.3);
+
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 66.66%;
+    border: 1px solid hsla(0, 0%, 40%, .3);
     background-color: #111111;
 }
 
 .photo {
-    display: flex;
-    margin-right: 200px;
-    margin-top: -50px;
 
 }
 
+.photo img {
+    margin-top: -117px;
+    max-width: 100%;
+
+}

@@ -1,41 +1,30 @@
 .main {
-    height: 80vh;
+
     background-color: #000;
-    display: flex;
     color: white;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
 }
 
 .container {
-    height: 100%;
-    width: 80%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 
 }
 
 .contactPage {
-    height: 80%;
-    width: 20%;
+    flex: 1;
 }
 
 .quickContact {
-    display: flex;
-    height: 80%;
-    width: 20%;
+    text-align: center;
+    flex: 1;
 }
+
 .imageWrapper {
-    margin-left: 100px;
+    align-self: flex-end;
+    flex: 1;
+
 }
+
 .image {
 
-    width: 77%;
-}
-
-.text {
-    font-size: 40px;
-    margin-bottom: -50px;
+    max-width: 500px;
 }

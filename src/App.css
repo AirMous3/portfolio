@@ -22,3 +22,11 @@
         left: 110%;
     }
 }
+
+.container {
+    max-width: 1470px;
+    padding: 50px 15px 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}

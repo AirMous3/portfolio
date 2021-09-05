@@ -4,12 +4,12 @@ import {Skill} from "./Skill/Skill";
 
 export const Skills = () => {
     return (
-        <div className={s.main}>
-            <div className={s.skillsContainer}>
+        <section className={`${s.main} section`}>
+            <div className={`${s.container} container`}>
 
                 <h2 className={s.title}>MY SKILLS</h2>
 
-                <div className={s.container}>
+                <div className={s.wrapper}>
                     <div className={s.skills}>
                         <Skill title={"React"}/>
                         <Skill title={"Redux"}/>
@@ -21,7 +21,7 @@ export const Skills = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

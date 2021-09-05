@@ -4,9 +4,9 @@ import {Job} from "./job/Job";
 
 export const Jobs = () => {
     return (
-        <div className={s.main}>
+        <section className={`${s.main} section`}>
 
-            <div className={s.container}>
+            <div className={`${s.container} container`}>
                 <h2 className={s.text}>MY WORKS</h2>
 
                 <div className={s.wrapper}>
@@ -21,6 +21,6 @@ export const Jobs = () => {
 
             </div>
 
-        </div>
+        </section>
     )
 }

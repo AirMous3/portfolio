@@ -6,9 +6,9 @@ import {QuickContactForm} from "./QuickContactForm/QuickContactForm";
 
 export const Contacts = () => {
     return (
-        <div className={s.main}>
+        <section className={`${s.main} section`}>
 
-            <div className={s.container}>
+            <div className={`${s.container} container`}>
 
                 <div className={s.contactPage}>
                     <MyContacts/>
@@ -23,6 +23,6 @@ export const Contacts = () => {
                 </div>
 
             </div>
-        </div>
+        </section>
     )
 }

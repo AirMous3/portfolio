@@ -6,7 +6,7 @@ import {Nav} from "../Navbar/Nav";
 export const Header = () => {
     return (
         <div className={s.header}>
-            <Nav/>
+                <Nav/>
         </div>
     )
 }

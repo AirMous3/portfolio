@@ -7,12 +7,12 @@
 
 .container {
     display: flex;
-    height: 100%;
-    width: 80%;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    animation: mainText 1.5s 1 ease-in-out ;
+
 }
 
 .text {
@@ -20,23 +20,24 @@
     color: white;
     font-size: 35px;
     flex-shrink: 0;
-    animation: mainText 1.5s 1 ease-in-out ;
 }
 
 @keyframes mainText {
     0% {
-        margin-left: -100%;
+        transform: translateX(-100%);
     }
-    100% {
-        margin-left: 0;
-    }
+
 }
 
 .photo {
-
-    margin-top: -50px;
-    flex-grow: 1;
+    margin-top: -80px;
     align-self: stretch;
-    margin-left: 150px;
 
+}
+
+.photo img {
+    max-height: 100vh;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
 }

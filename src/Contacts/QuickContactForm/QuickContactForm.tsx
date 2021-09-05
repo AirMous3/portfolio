@@ -6,9 +6,9 @@ export const QuickContactForm = () => {
         <div className={s.main}>
 
             <h2>Quick Contact Form</h2>
-            <div>
+            <div className={s.wrapper}>
                 <form method="post">
-                    <div style={{marginTop: "20px"}}>
+                    <div >
                         <input className={s.input} type="text" placeholder="Your Name"/>
                     </div>
                     <div>
@@ -20,12 +20,12 @@ export const QuickContactForm = () => {
                     <div>
                         <input className={s.input} type="text" placeholder="Address"/>
                     </div>
-                    <div style={{marginTop: "20px"}}>
+                    <div >
 
                         <textarea className={s.textArea} placeholder="Your Massage..."/>
 
                     </div>
-                    <div style={{marginTop: "10px"}}>
+                    <div >
                         <button className={s.button} type="submit">Submit</button>
 
                     </div>

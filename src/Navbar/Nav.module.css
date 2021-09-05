@@ -1,9 +1,8 @@
 .nav {
-
     display: flex;
-    justify-content: space-evenly;
     position: relative;
-
+    width: 100%;
+    max-width: 600px;
 
 
 }
@@ -18,9 +17,16 @@
     background-color: hsla(0,0%,40%,.3);
 }
 .nav a {
-    margin-right: 70px;
     text-decoration: none;
     color: white;
     position: relative;
     z-index: 9;
+    padding: 15px 0px;
+    flex: 1;
+    text-align: center;
+
+}
+.nav a:hover {
+    background-color: #202020;
+
 }

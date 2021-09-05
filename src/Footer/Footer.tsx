@@ -4,8 +4,8 @@ import s from "./Footer.module.css"
 export const Footer = () => {
     return (
         <div className={s.main}>
-            <div className={s.container}>
-            <div className={s.text}>My social</div>
+            <div className={`${s.container} container`}>
+                <div className={s.text}>My social</div>
                 <div className={s.footerMenu}>
                     <div className={s.block}>
 

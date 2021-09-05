@@ -5,14 +5,14 @@ import redSonic from "../assets/image/MainLogo/RedSonic.png"
 
 export const Main = () => {
     return (
-        <div className={s.main}>
-            <div className={s.container}>
+        <section className={`${s.main} section`}>
+            <div className={`${s.container} container`}>
                 <div className={s.text}>
                 <span>
                     Hi there
                 </span>
                     <p>
-                        I'm HOLAKHAU ILYA
+                        About me
                     </p>
                     <h1>
                         Front-End developer
@@ -21,9 +21,9 @@ export const Main = () => {
                 </div>
 
                 <div className={s.photo}>
-                    <img style={{height: "100vh", position: "absolute"}} src={redSonic} alt="RedSonic"/>
+                    <img  src={redSonic} alt="RedSonic"/>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

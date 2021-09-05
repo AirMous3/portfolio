@@ -1,9 +1,10 @@
 .main {
     display: flex;
+    padding: 10px;
     height: 100%;
     width: 33.33%;
-    background-color: #222;
-    border: 1px solid hsla(0,0%,40%,.3);
+
+
 }
 
 .container {
@@ -12,7 +13,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    border: 1px solid hsla(0,0%,40%,.3);
+    background-color: #222;
 
 
 }
@@ -20,20 +22,24 @@
 .image {
     display: flex;
     justify-content: center;
-    height: 70%;
-    border-bottom: 1px solid hsla(0,0%,40%,.3);
+    align-items: center;
+    height: 500px;
+    padding: 15px;
 
+}
+.image img {
+    width: 100%;
+    max-width: 100%;
 }
 
 .wrapper {
     color: white;
-    height: 30%;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
+    border-top: 1px solid hsla(0,0%,40%,.3);
 }
 .description {
     border: 1px solid hsla(0,0%,40%,.3);
