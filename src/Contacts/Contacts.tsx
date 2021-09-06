@@ -15,7 +15,7 @@ export const Contacts = () => {
                 </div>
 
                 <div className={s.imageWrapper}>
-                    <img className={s.image} src={sonic} alt="blueSonic"/>
+                    <img  src={sonic} alt="blueSonic"/>
                 </div>
 
                 <div className={s.quickContact}>

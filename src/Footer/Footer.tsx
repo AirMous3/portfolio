@@ -22,7 +22,7 @@ export const Footer = () => {
 
                 </div>
                 <div className={s.text}>
-                    Copyright - 2021 Developed by Holakhau Ilya
+                    Copyright - 2021 Developed=
                 </div>
 
             </div>

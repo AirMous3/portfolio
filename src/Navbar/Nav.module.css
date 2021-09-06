@@ -27,6 +27,6 @@
 
 }
 .nav a:hover {
-    background-color: #202020;
-
+    background: #333;
+    color: #fff;
 }

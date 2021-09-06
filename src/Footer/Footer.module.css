@@ -1,13 +1,16 @@
 .main {
-    min-height: 20vh;
+
     background-color: #111111;
     border-top: 1px solid hsla(0, 0%, 40%, .3);
 
 }
 
 .container {
+    height: 20vh;
     color: white;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
 }
 
