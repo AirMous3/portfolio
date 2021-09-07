@@ -17,7 +17,7 @@ export const Skill = (props: PropsType) => {
                 </div>
                 <h3>{props.title}</h3>
 
-                <span className={s.description}> blballbal bllblbalblfdsf dsf dsfdsfdfddfsghfdsgh fdghsdghfdgshgh dfgshfdghsghfdsgfs fdhsgfgsdghfdsg dsadd sa dsa dsadsasdadsa dsadsadsa dsadsadas da blalbalbllab blalbalblabla</span>
+                <span className={s.description}>  sa  dfgshfdghsghfdsgfs fdhsgfgsdghfdsg dsadd sa dsa dsadsasdadsa dsadsadsa dsadsadas da blalbalbllab blalbalblablablballbal bllblbalblfdsf dsf dsfdsfdfddfsghfdsgh fdghsdghfdgshgh dfgshfdghsghfdsgfs fdhsgfgsdghfdsg dsadd sa dsa dsadsasdadsa dsadsadsa dsadsadas da blalbalbllab blalbalblabla</span>
             </div>
         </div>
     )

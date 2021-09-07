@@ -1,8 +1,8 @@
 import React from "react";
-import s from "./Jobs.module.css"
-import {Job} from "./job/Job";
+import s from "./Works.module.css"
+import {Work} from "./work/Work";
 
-export const Jobs = () => {
+export const Works = () => {
     return (
         <section className={`${s.main} section`}>
 
@@ -11,9 +11,9 @@ export const Jobs = () => {
 
                 <div className={s.wrapper}>
 
-                    <Job/>
-                    <Job/>
-                    <Job/>
+                    <Work/>
+                    <Work/>
+                    <Work/>
 
 
 

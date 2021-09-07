@@ -1,5 +1,4 @@
 .main {
-    max-height: 50vh;
     background-color: #202020;
     color: white;
 
@@ -13,16 +12,15 @@
 }
 
 .textBox {
-margin-top: -25px;
-
-
+    margin-top: -25px;
+    width: 100%;
 
 }
 
+
 .wrapper {
     margin: 0 auto;
-    padding: 50px;
-    max-width: 66.66%;
+    padding: 50px 10px;
     border: 1px solid hsla(0, 0%, 40%, .3);
     background-color: #111111;
 }

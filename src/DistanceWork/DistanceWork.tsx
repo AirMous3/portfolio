@@ -12,7 +12,7 @@ export const DistanceWork = () => {
                         Considering options for remote work
                     </h2>
                     <div className={s.wrapper}>
-                        <span > dsadsadsadsdsads dsadsadsadsadsadsa dsadsadsadsadsa dsadsadsadsadsadsadsa dsadsadsadsa</span>
+                        <span > dsadsadsadsdsads   dsadsadsadsdsads dsadsadsadsadsadsa dsadsadsadsadsa dsadsadsadsadsadsadsa dsadsadsadsa  dsadsadsadsdsads dsadsadsadsadsadsa dsadsadsadsadsa dsadsadsadsadsadsadsa dsadsadsadsa dsadsadsadsadsa dsadsadsadsadsadsadsa dsadsadsadsa</span>
                     </div>
 
                 </div>

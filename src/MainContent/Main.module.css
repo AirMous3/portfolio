@@ -1,6 +1,5 @@
 .main {
 
-    height: 100vh;
     background-color: #000;
 
 }
@@ -16,12 +15,12 @@
 }
 
 .text {
+    max-width: 100%;
     margin-bottom: 10vh;
     color: white;
     font-size: 35px;
     flex-shrink: 0;
 }
-
 @keyframes mainText {
     0% {
         transform: translateX(-100%);

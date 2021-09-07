@@ -3,7 +3,7 @@ import "./App.css"
 import {Header} from "./Header/Header";
 import {Main} from "./MainContent/Main";
 import {Skills} from "./Skills/Skills";
-import {Jobs} from "./Jobs/Jobs";
+import {Works} from "./Jobs/Works";
 import {DistanceWork} from "./DistanceWork/DistanceWork";
 import {Contacts} from "./Contacts/Contacts";
 import {Footer} from "./Footer/Footer";
@@ -15,7 +15,7 @@ function App() {
             <Header/>
             <Main/>
             <Skills/>
-            <Jobs/>
+            <Works/>
             <DistanceWork/>
             <Contacts/>
             <Footer/>

@@ -8,29 +8,22 @@ export const QuickContactForm = () => {
             <h2>Quick Contact Form</h2>
             <div className={s.wrapper}>
                 <form method="post">
-                    <div >
-                        <input className={s.input} type="text" placeholder="Your Name"/>
-                    </div>
-                    <div>
-                        <input className={s.input} type="email" placeholder="Your Email"/>
-                    </div>
-                    <div>
-                        <input className={s.input} type="text" placeholder="Your Phone"/>
-                    </div>
-                    <div>
-                        <input className={s.input} type="text" placeholder="Address"/>
-                    </div>
-                    <div >
 
-                        <textarea className={s.textArea} placeholder="Your Massage..."/>
+                    <input className={s.input} type="text" placeholder="Your Name"/>
 
-                    </div>
-                    <div >
-                        <button className={s.button} type="submit">Submit</button>
+                    <input className={s.input} type="email" placeholder="Your Email"/>
 
-                    </div>
+                    <input className={s.input} type="text" placeholder="Your Phone"/>
+
+                    <input className={s.input} type="text" placeholder="Address"/>
+
+
+                    <textarea className={s.textArea} placeholder="Your Massage..."/>
+
+
 
                 </form>
+                <button className={s.button} type="submit">Submit</button>
 
             </div>
         </div>
