@@ -3,7 +3,7 @@ import "./App.css"
 import {Header} from "./Header/Header";
 import {Main} from "./MainContent/Main";
 import {Skills} from "./Skills/Skills";
-import {Works} from "./Jobs/Works";
+import {Works} from "./Works/Works";
 import {DistanceWork} from "./DistanceWork/DistanceWork";
 import {Contacts} from "./Contacts/Contacts";
 import {Footer} from "./Footer/Footer";
