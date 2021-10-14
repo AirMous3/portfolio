@@ -1,6 +1,6 @@
 import React from "react"
 import s from "./DistanceWork.module.css"
-import pinkSonic from "../assets/image/1000px.png"
+import pinkSonic from "../../assets/image/1000px.png"
 
 export const DistanceWork = () => {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Contacts.module.css"
-import sonic from "../assets/image/SonicContacts.png"
+import sonic from "../../assets/image/SonicContacts.png"
 import {MyContacts} from "./MyContacts/MyContacts";
 import {QuickContactForm} from "./QuickContactForm/QuickContactForm";
 

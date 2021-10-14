@@ -1,6 +1,6 @@
 import React from "react"
 import s from "./Main.module.css"
-import redSonic from "../assets/image/MainLogo/RedSonic.png"
+import redSonic from "../../assets/image/MainLogo/RedSonic.png"
 
 
 export const Main = () => {

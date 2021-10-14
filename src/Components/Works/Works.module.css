@@ -18,5 +18,7 @@
     /*flex erection column - media zapros */
     border: 1px solid;
     background-color: #111111;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
