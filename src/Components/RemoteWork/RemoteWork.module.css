@@ -8,12 +8,20 @@
     display: flex;
     text-align: center;
     font-size: 30px;
+    flex-wrap: wrap;
+    max-width: 1470px;
+    margin-left: auto;
+    justify-content: center;
+    margin-right: auto;
 
 }
 
 .textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin-top: -25px;
-    width: 100%;
+    padding: 50px;
 
 }
 
@@ -25,13 +33,14 @@
     background-color: #111111;
 }
 
+.mainText {
+ padding: 20px;
+}
 
 .photo {
 
 }
 
 .photo img {
-    margin-top: -117px;
-    max-width: 60%;
-
+    max-width: 35%;
 }

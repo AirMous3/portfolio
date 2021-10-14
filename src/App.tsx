@@ -4,9 +4,9 @@ import {Header} from "./Components/Header/Header";
 import {Main} from "./Components/MainContent/Main";
 import {Skills} from "./Components/Skills/Skills";
 import {Works} from "./Components/Works/Works";
-import {DistanceWork} from "./Components/DistanceWork/DistanceWork";
 import {Contacts} from "./Components/Contacts/Contacts";
 import {Footer} from "./Components/Footer/Footer";
+import {RemoteWork} from "./Components/RemoteWork/RemoteWork";
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
             <Main/>
             <Skills/>
             <Works/>
-            <DistanceWork/>
+            <RemoteWork/>
             <Contacts/>
             <Footer/>
             {/*<img className={"sonic"} src={"https://qph.fs.quoracdn.net/main-qimg-d64de00d6f45c3e1dd56dfe308fdc41f"} alt={"sonic"}/>*/}

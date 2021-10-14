@@ -1,18 +1,20 @@
 import React from "react"
-import s from "./DistanceWork.module.css"
+import s from "./RemoteWork.module.css"
 import pinkSonic from "../../assets/image/1000px.png"
 
-export const DistanceWork = () => {
+export const RemoteWork = () => {
     return (
         <section className={`${s.main} section`}>
-            <div className={`${s.container} container`}>
+            <div className={`${s.container} `}>
 
                 <div className={s.textBox}>
-                    <h2>
+
+                    <h2 className={s.mainText}>
                         Considering options for remote work
                     </h2>
+
                     <div className={s.wrapper}>
-                        <span > dsadsadsadsdsads   dsadsadsadsdsads dsadsadsadsadsadsa dsadsadsadsadsa dsadsadsadsadsadsadsa dsadsadsadsa  dsadsadsadsdsads dsadsadsadsadsadsa dsadsadsadsadsa dsadsadsadsadsadsadsa dsadsadsadsa dsadsadsadsadsa dsadsadsadsadsadsadsa dsadsadsadsa</span>
+                        <span > dsadasd dasdsadas das dasdsadsa sdsa dasdasdas </span>
                     </div>
 
                 </div>
