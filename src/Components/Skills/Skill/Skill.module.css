@@ -15,7 +15,7 @@
 }
 
 .skill {
-
+ width: 33.33%;
 }
 
 .icon {
@@ -26,6 +26,7 @@
 
 .description {
     margin-top: 15px;
+    min-height: 200px;
     border: 1px solid hsla(0,0%,40%,.3);
     background-color: #222;
     padding: 10px;
