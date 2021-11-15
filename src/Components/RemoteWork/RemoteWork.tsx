@@ -1,5 +1,5 @@
 import React from "react"
-import s from "./RemoteWork.module.css"
+import s from "./RemoteWork.module.scss"
 import pinkSonic from "../../assets/image/1000px.png"
 
 export const RemoteWork = () => {

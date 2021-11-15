@@ -1,0 +1,38 @@
+.main {
+  background-color: #000;
+  color: white;
+
+}
+
+.container {
+  max-width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-left: 20px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.contactPage {
+  flex: 1;
+  width: 100%;
+}
+
+.quickContact {
+  width: 100%;
+  text-align: center;
+  flex: 1 1;
+
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: flex-end;
+
+  img {
+    max-width: 70%;
+  }
+}

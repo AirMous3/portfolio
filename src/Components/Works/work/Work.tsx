@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Work.module.css"
+import s from "./Work.module.scss"
 
 export const Work = () => {
     return (
@@ -17,7 +17,7 @@ export const Work = () => {
                 <div className={s.wrapper}>
                     <div>Name of Project </div>
                     <div className={s.description}>
-                        <span> Project description   Project description dsajkdsaj sdadhshdsd dsdsdsds dsdsds dsdsdsd  dsdsdsdsdd dddsasd dsds dsdsdsds dsdsds dsdsds dsad sadsadsadsagdgshahd sddsgdshdgshds dshdhsghds  Project description dsajkdsaj sdadhshdsd dsdsdsds dsdsds dsdsdsd  dsdsdsdsdd dddsasd dsds dsdsdsds dsdsds dsdsds dsad sadsadsadsagdgshahd sddsgdshdgshds dshdhsghds dsajkdsaj sdadhshdsd dsdsdsds dsdsds dsdsdsd  dsdsdsdsdd dddsasd dsds dsdsdsds dsdsds dsdsds dsad sadsadsadsagdgshahd sddsgdshdgshds dshdhsghds</span>
+                        <span> Project description   Project description dsajkdsaj sdadhshdsd dsdsdsds dsdsds dsdsdsd  dsdsdsdsdd dddsasd dsds dsdsdsds dsdsds dsdsds dsad sadsadsadsagdgshahd sddsgdshdgshds dshdhsghdhshdsd dsdsdsds  sddsgdshdgshds dshdhsghds</span>
                     </div>
                 </div>
             </div>

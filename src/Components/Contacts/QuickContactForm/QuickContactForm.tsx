@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./QuickContactForm.module.css"
+import s from "./QuickContactForm.module.scss"
 
 export const QuickContactForm = () => {
     return (
@@ -9,20 +9,20 @@ export const QuickContactForm = () => {
             <div className={s.wrapper}>
                 <form method="post">
 
-                    <input className={s.input} type="text" placeholder="Your Name"/>
+                    <input type="text" placeholder="Your Name"/>
 
-                    <input className={s.input} type="email" placeholder="Your Email"/>
+                    <input type="email" placeholder="Your Email"/>
 
-                    <input className={s.input} type="text" placeholder="Your Phone"/>
+                    <input type="text" placeholder="Your Phone"/>
 
-                    <input className={s.input} type="text" placeholder="Address"/>
+                    <input type="text" placeholder="Address"/>
 
 
                     <textarea className={s.textArea} placeholder="Your Message..."/>
 
 
                 </form>
-                <button className={s.button} type="submit">Submit</button>
+                <button type="submit">Submit</button>
 
             </div>
         </div>

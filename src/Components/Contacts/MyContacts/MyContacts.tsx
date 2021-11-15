@@ -1,9 +1,9 @@
 import React from "react";
-import s from "./MyContacts.module.css"
+import s from "./MyContacts.module.scss"
 
 export const MyContacts = () => {
     return (
-        <div className={s.main}>
+        <div>
 
 
             <div className={s.contactPage}>
@@ -14,36 +14,36 @@ export const MyContacts = () => {
                     Lithuania and Latvia to the northwest
                 </p>
 
-                <div className={s.address}>
-                    <h3>
-                        Address
-                    </h3>
-                    <div className={s.text}>
+
+                <h3>
+                    Address
+                </h3>
+                <div className={s.text}>
                     <span>
                          Republic of Belarus, Minsk
                     </span>
-                    </div>
                 </div>
-                <div className={s.phone}>
-                    <h3>
-                        Phone
-                    </h3>
-                    <div className={s.text}>
+
+
+                <h3>
+                    Phone
+                </h3>
+                <div className={s.text}>
                     <span>
                        +375-33-3219635
                     </span>
-                    </div>
                 </div>
-                <div className={s.email}>
-                    <h3>
-                        Email
-                    </h3>
-                    <div className={s.text}>
+
+
+                <h3>
+                    Email
+                </h3>
+                <div className={s.text}>
                     <span>
                         airmouselol@gmail.com
                     </span>
-                    </div>
                 </div>
+
             </div>
 
 

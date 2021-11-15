@@ -1,0 +1,42 @@
+.main {
+
+  background-color: #000;
+
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  animation: mainText 1.5s 1 ease-in-out;
+
+}
+
+.text {
+  max-width: 100%;
+  margin-bottom: 10vh;
+  color: white;
+  font-size: 35px;
+  flex-shrink: 0;
+}
+
+@keyframes mainText {
+  0% {
+    transform: translateX(-100%);
+  }
+
+}
+
+.photo {
+  margin-top: -80px;
+  align-self: stretch;
+
+  img {
+    max-height: 100vh;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+}

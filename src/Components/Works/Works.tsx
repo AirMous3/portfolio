@@ -1,12 +1,12 @@
 import React from "react";
-import s from "./Works.module.css"
+import s from "./Works.module.scss"
 import {Work} from "./work/Work";
 
 export const Works = () => {
     return (
         <section className={`${s.main} section`}>
 
-            <div className={`${s.container} container`}>
+            <div className={`container`}>
                 <h2 className={s.text}>MY WORKS</h2>
 
                 <div className={s.wrapper}>
@@ -14,7 +14,6 @@ export const Works = () => {
                     <Work/>
                     <Work/>
                     <Work/>
-
 
 
                 </div>

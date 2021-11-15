@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Footer.module.css"
+import s from "./Footer.module.scss"
 
 export const Footer = () => {
     return (
@@ -22,7 +22,7 @@ export const Footer = () => {
 
                 </div>
                 <div className={s.text}>
-                    Copyright - 2021 Developed=
+                    copyright 2021 all rights reserved
                 </div>
 
             </div>

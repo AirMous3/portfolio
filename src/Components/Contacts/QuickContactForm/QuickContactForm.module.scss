@@ -1,18 +1,16 @@
 .main {
-    font-size: 20px;
-    font-family: Heebo, math;
+  font-size: 20px;
+  font-family: Heebo, math;
 
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
 
-}
-
-.input {
+  input {
     margin: 10px;
     background-color: #202020;
     border: none;
@@ -20,9 +18,9 @@
     color: white;
     padding: 10px;
     opacity: 0.7;
-}
+  }
 
-.textArea {
+  textarea {
     margin-top: 10px;
     height: 100px;
     width: 83%;
@@ -33,9 +31,9 @@
     outline: none;
     border: none;
     opacity: 0.7;
-}
+  }
 
-.button {
+  button {
     align-self: center;
     margin-top: 10px;
     padding: 10px 20px;
@@ -45,12 +43,13 @@
     color: white;
     cursor: pointer;
     opacity: 0.7;
-}
 
-.button:hover {
-    opacity: 1;
-}
+    &:hover {
+      opacity: 1;
+    }
 
-.button:active {
-    transform: scale(0.95);
+    &:active {
+      transform: scale(0.95);
+    }
+  }
 }

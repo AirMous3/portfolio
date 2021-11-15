@@ -1,11 +1,11 @@
 import React from 'react';
-import s from "./Skills.module.css"
+import s from "./Skills.module.scss"
 import {Skill} from "./Skill/Skill";
 import ReactSonic from './features/8.gif'
 import ReduxSonic from './features/12.gif'
 import TypeScriptSonic from './features/5.gif'
 import GitSonic from './features/13.gif'
-import SassSonic from './features/19.gif'
+import SassSonic from './features/28.gif'
 
 
 export const Skills = () => {
@@ -47,7 +47,7 @@ export const Skills = () => {
 
     return (
         <section className={`${s.main} section`}>
-            <div className={`${s.container} container`}>
+            <div className={`container`}>
 
                 <h2 className={s.title}>MY SKILLS</h2>
 
