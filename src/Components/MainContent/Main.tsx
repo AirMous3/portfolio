@@ -12,7 +12,7 @@ export const Main = () => {
                     Hi there
                 </span>
                     <p>
-                        About me
+                        I'm ILYA HOLAKHAU
                     </p>
                     <h1>
                         Front-End developer

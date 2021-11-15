@@ -8,14 +8,14 @@ export const Contacts = () => {
     return (
         <section className={`${s.main} section`}>
 
-            <div className={`${s.container} container`}>
+            <div className={s.container}>
 
                 <div className={s.contactPage}>
                     <MyContacts/>
                 </div>
 
                 <div className={s.imageWrapper}>
-                    <img  src={sonic} alt="blueSonic"/>
+                    <img src={sonic} alt="blueSonic"/>
                 </div>
 
                 <div className={s.quickContact}>
