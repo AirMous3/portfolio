@@ -28,12 +28,9 @@ export const MyContacts = () => {
                     <h3>
                         Phone
                     </h3>
-                    <div className={`${s.text} + ${s.phone}`}>
+                    <div className={s.text}>
                     <span>
-                        0-666-666-666
-                    </span>
-                        <span>
-                        0-777-777-777
+                       +375-33-3219635
                     </span>
                     </div>
                 </div>
@@ -43,7 +40,7 @@ export const MyContacts = () => {
                     </h3>
                     <div className={s.text}>
                     <span>
-                        sample@gmail.com
+                        airmouselol@gmail.com
                     </span>
                     </div>
                 </div>

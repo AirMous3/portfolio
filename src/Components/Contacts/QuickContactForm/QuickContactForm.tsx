@@ -18,8 +18,7 @@ export const QuickContactForm = () => {
                     <input className={s.input} type="text" placeholder="Address"/>
 
 
-                    <textarea className={s.textArea} placeholder="Your Massage..."/>
-
+                    <textarea className={s.textArea} placeholder="Your Message..."/>
 
 
                 </form>
