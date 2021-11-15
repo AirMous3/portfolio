@@ -5,15 +5,16 @@ import s from "./Skill.module.css"
 type PropsType = {
     title: string
     description: string
+    image: string
 
 }
 
-export const Skill = ({title, description}: PropsType) => {
+export const Skill = ({title, description, image}: PropsType) => {
     return (
         <div className={s.skill}>
             <div className={s.container}>
                 <div className={s.icon}>
-                    <img src={"https://i0.wp.com/pa1.narvii.com/6495/a59913f75290d830cfb61f2651917c6b2ce3400b_hq.gif"}
+                    <img src={image}
                          alt="hedgehog"/>
                 </div>
                 <h3>{title}</h3>
