@@ -1,7 +1,11 @@
 import React from "react";
 import s from "./Work.module.scss"
 
-export const Work = () => {
+type PropsType = {
+    title: string
+    description: string
+}
+export const Work = ({title, description}: PropsType) => {
     return (
         <div className={s.main}>
             <div className={s.container}>
@@ -15,9 +19,9 @@ export const Work = () => {
 
 
                 <div className={s.wrapper}>
-                    <div>Name of Project </div>
+                    <div>{title}</div>
                     <div className={s.description}>
-                        <span> Project description   Project description dsajkdsaj sdadhshdsd dsdsdsds dsdsds dsdsdsd  dsdsdsdsdd dddsasd dsds dsdsdsds dsdsds dsdsds dsad sadsadsadsagdgshahd sddsgdshdgshds dshdhsghdhshdsd dsdsdsds  sddsgdshdgshds dshdhsghds</span>
+                        <span>{description}</span>
                     </div>
                 </div>
             </div>
