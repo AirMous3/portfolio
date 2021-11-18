@@ -34,5 +34,8 @@
 
   img {
     max-width: 70%;
+    @media only screen and (max-width: 1285px) {
+      display: none;
+    }
   }
 }
