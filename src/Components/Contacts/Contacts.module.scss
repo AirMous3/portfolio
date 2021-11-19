@@ -10,15 +10,16 @@
   margin-right: auto;
   padding-top: 60px;
   padding-left: 20px;
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: center;
 
 }
 
 .contactPage {
   width: 300px;
+  padding-top: 100px;
 }
 
 .quickContact {
@@ -31,7 +32,7 @@
 .imageWrapper {
 
   img {
-    max-width: 70%;
+    max-width: 80vh;
     @media only screen and (max-width: 1285px) {
       display: none;
     }
