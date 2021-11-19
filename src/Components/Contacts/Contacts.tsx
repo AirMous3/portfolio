@@ -2,7 +2,6 @@ import React from "react";
 import s from "./Contacts.module.scss"
 import sonic from "../../assets/image/SonicContacts.png"
 import {MyContacts} from "./MyContacts/MyContacts";
-import {QuickContactForm} from "./QuickContactForm/QuickContactForm";
 
 export const Contacts = () => {
     return (
@@ -10,16 +9,11 @@ export const Contacts = () => {
 
             <div className={s.container}>
 
-                <div className={s.contactPage}>
-                    <MyContacts/>
-                </div>
-
                 <div className={s.imageWrapper}>
                     <img src={sonic} alt="blueSonic"/>
                 </div>
-
-                <div className={s.quickContact}>
-                    <QuickContactForm/>
+                <div className={s.contactPage}>
+                    <MyContacts/>
                 </div>
 
             </div>

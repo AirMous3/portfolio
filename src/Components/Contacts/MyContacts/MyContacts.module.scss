@@ -2,14 +2,33 @@
 .contactPage {
   font-size: 20px;
   font-family: Heebo, math;
+
+  div {
+    padding: 20px;
+    color: #bbb;
+  }
 }
 
 .address {
 
 }
 
-.text {
+
+.icons {
   padding: 20px;
-  color: #bbb;
+
+  a {
+    color: #bbb;
+    margin-left: 20px;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+      color: white;
+      border-radius: 50px;
+      padding: 8px;
+    }
+  }
 
 }

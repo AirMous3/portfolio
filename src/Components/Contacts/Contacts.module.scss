@@ -13,12 +13,12 @@
   height: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: end;
 
 }
 
 .contactPage {
-  flex: 1;
-  width: 100%;
+  width: 300px;
 }
 
 .quickContact {
@@ -29,8 +29,6 @@
 }
 
 .imageWrapper {
-  display: flex;
-  justify-content: flex-end;
 
   img {
     max-width: 70%;
