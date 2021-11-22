@@ -8,7 +8,6 @@ import {Contacts} from "./Components/Contacts/Contacts";
 import {Footer} from "./Components/Footer/Footer";
 import {RemoteWork} from "./Components/RemoteWork/RemoteWork";
 
-
 function App() {
     return (
         <div>

@@ -1,6 +1,6 @@
 .main {
-  min-height: 100vh;
   background-color: #000;
+  padding: 100px 0;
 }
 
 .text {
@@ -11,11 +11,19 @@
 }
 
 .wrapper {
-  display: flex;
   padding: 50px 0;
   border: 1px solid;
   background-color: #111111;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.slide {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  img {
+    width: 100%;
+  }
 }
 
