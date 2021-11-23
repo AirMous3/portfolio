@@ -23,8 +23,8 @@
 .contactPage {
   width: 300px;
   padding: 50px;
-  border: 1px solid white;
-  border-radius: 8px;
+  border: 1px solid rgba(102, 102, 102, 0.3);
+  border-radius: 5px;
   margin-left: -40px;
   margin-bottom: 100px;
   z-index: 0;
@@ -37,7 +37,7 @@
 @keyframes blink {
   0% {
     box-shadow: 3px 15px 100px 50px rgba(255, 255, 255, 0.5);
-    background-color: rgba(255, 255, 255, 0.7)
+    background-color: #202020;
   }
   50% {
     box-shadow: none;
