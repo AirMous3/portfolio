@@ -6,10 +6,10 @@ export const MyContacts = () => {
         <div>
 
 
-            <div className={s.contactPage}>
+            <div id={"contacts"} className={s.contactPage}>
                 <h2>My Contacts</h2>
                 <div className={s.icons}>
-                    <a href="https://github.com/AirMous3">
+                    <a href="https://github.com/AirMous3" target={'_blank'}>
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
                              height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -22,7 +22,7 @@ export const MyContacts = () => {
                              177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path>
                         </svg>
                     </a>
-                    <a href="https://www.linkedin.com/in/ilya-holakhau-180839219/">
+                    <a href="https://www.linkedin.com/in/ilya-holakhau-180839219/" target={'_blank'}>
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
                              height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -31,7 +31,7 @@ export const MyContacts = () => {
                                 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z"></path>
                         </svg>
                     </a>
-                    <a href="https://www.codewars.com/users/Framinglol">
+                    <a href="https://www.codewars.com/users/Framinglol" target={'_blank'}>
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
                              height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg">
                             <path

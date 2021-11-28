@@ -47,7 +47,7 @@ export const Skills = () => {
 
     return (
         <section className={`${s.main} section`}>
-            <div className={`container`}>
+            <div id={"skills"} className={`container`}>
 
                 <h2 className={s.title}>MY SKILLS</h2>
 
