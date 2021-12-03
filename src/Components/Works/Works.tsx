@@ -2,6 +2,9 @@ import React from "react";
 import s from "./Works.module.scss"
 import Slider from "react-slick";
 import socialNetwork from '../../assets/image/workIcons/socialNetwork.png'
+import counter from '../../assets/image/workIcons/counter.png'
+import todolist from '../../assets/image/workIcons/todo.png'
+import somethingElse from '../../assets/image/workIcons/someElse.png'
 
 export const Works = () => {
 
@@ -56,8 +59,8 @@ const SimpleSlider = () => {
                         <div className={s.image}>
 
                             <img
-                                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bd7039f6-9d6a-4365-85a3-c7cdaa31c873/d5ku9pk-dac0bc61-12d8-4fbf-bd5c-9031d262f418.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JkNzAzOWY2LTlkNmEtNDM2NS04NWEzLWM3Y2RhYTMxYzg3M1wvZDVrdTlway1kYWMwYmM2MS0xMmQ4LTRmYmYtYmQ1Yy05MDMxZDI2MmY0MTguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3NrvCTaDrOqn57eKhNiu_b7XC1eaNUAlXzgSKkU-c74"
-                                alt="sas"/>
+                                src={todolist}
+                                alt="toDoImage"/>
 
                         </div>
                         <div className={s.descriptionWrapper}>
@@ -68,7 +71,7 @@ const SimpleSlider = () => {
                                     information about all current tasks
                                     in one place.
                                 </p>
-                                <div style={{padding: '0'}}>
+                                <div>
                                     <h4 className={s.techName}>TECHNOLOGIES</h4>
                                     <p className={s.techDescription}>React, Redux,
                                         Redux-thunk, TS, Axios, Formik,
@@ -87,7 +90,7 @@ const SimpleSlider = () => {
 
                             <img
                                 src={socialNetwork}
-                                alt="sas"/>
+                                alt="socialNetworkImage"/>
 
                         </div>
 
@@ -99,7 +102,7 @@ const SimpleSlider = () => {
                                     information and communicate with
                                     each other.
                                 </div>
-                                <div style={{padding: '0'}}>
+                                <div>
                                     <div className={s.techName}>TECHNOLOGIES</div>
                                     <div className={s.techDescription}>React, Redux,
                                         Redux-thunk, TS, Axios,
@@ -117,8 +120,8 @@ const SimpleSlider = () => {
                         <div className={s.image}>
 
                             <img
-                                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bd7039f6-9d6a-4365-85a3-c7cdaa31c873/d5ku9pk-dac0bc61-12d8-4fbf-bd5c-9031d262f418.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JkNzAzOWY2LTlkNmEtNDM2NS04NWEzLWM3Y2RhYTMxYzg3M1wvZDVrdTlway1kYWMwYmM2MS0xMmQ4LTRmYmYtYmQ1Yy05MDMxZDI2MmY0MTguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3NrvCTaDrOqn57eKhNiu_b7XC1eaNUAlXzgSKkU-c74"
-                                alt="sas"/>
+                                src={counter}
+                                alt="counterImage"/>
 
                         </div>
 
@@ -129,7 +132,7 @@ const SimpleSlider = () => {
                                 <div>Simple React application that allows increment or
                                     decrement count.
                                 </div>
-                                <div style={{padding: '0'}}>
+                                <div>
                                     <div className={s.techName}>TECHNOLOGIES</div>
                                     <div className={s.techDescription}>React, Redux, TS.
                                     </div>
@@ -143,8 +146,8 @@ const SimpleSlider = () => {
                         <div className={s.image}>
 
                             <img
-                                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bd7039f6-9d6a-4365-85a3-c7cdaa31c873/d5ku9pk-dac0bc61-12d8-4fbf-bd5c-9031d262f418.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JkNzAzOWY2LTlkNmEtNDM2NS04NWEzLWM3Y2RhYTMxYzg3M1wvZDVrdTlway1kYWMwYmM2MS0xMmQ4LTRmYmYtYmQ1Yy05MDMxZDI2MmY0MTguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3NrvCTaDrOqn57eKhNiu_b7XC1eaNUAlXzgSKkU-c74"
-                                alt="sas"/>
+                                src={somethingElse}
+                                alt="somethingElseImage"/>
 
                         </div>
 
@@ -152,11 +155,10 @@ const SimpleSlider = () => {
                             <h3>SOMETHING ELSE</h3>
 
                             <div className={s.description}>
-                                <div>Web application designed to conveniently structure
-                                    information about all current tasks
-                                    in one place.
+                                <div>
+                                    Here will be a description of the future project, his functionality, complexity or something else
                                 </div>
-                                <div style={{padding: '0'}}>
+                                <div>
                                     <div className={s.techName}>TECHNOLOGIES</div>
                                     <div className={s.techDescription}>React, Redux,
                                         Redux-thunk, TS, Axios, Formik,
