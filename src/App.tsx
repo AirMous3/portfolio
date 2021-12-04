@@ -1,25 +1,22 @@
-import React from 'react';
-import "./App.scss"
-import {Header} from "./Components/Header/Header";
-import {Main} from "./Components/MainContent/Main";
-import {Skills} from "./Components/Skills/Skills";
-import {Works} from "./Components/Works/Works";
-import {Contacts} from "./Components/Contacts/Contacts";
-import {RemoteWork} from "./Components/RemoteWork/RemoteWork";
-import {RunningSonic} from "./Components/Features/RunningSonic";
+import React, { ReactElement } from 'react';
 
-function App() {
-    return (
-        <div>
-            <Header/>
-            <Main/>
-            <Skills/>
-            <Works/>
-            <RemoteWork/>
-            <Contacts/>
-            <RunningSonic/>
-        </div>
-    );
-}
+import './App.scss';
+import { Contacts } from './components/contacts/Contacts';
+import { RunningSonic } from './components/features/RunningSonic';
+import { Header } from './components/header/Header';
+import { Main } from './components/mainContent/Main';
+import { RemoteWork } from './components/remoteWork/RemoteWork';
+import { Skills } from './components/skills/Skills';
+import { Works } from './components/works/Works';
 
-export default App;
+export const App = (): ReactElement => (
+  <div>
+    <Header />
+    <Main />
+    <Skills />
+    <Works />
+    <RemoteWork />
+    <Contacts />
+    <RunningSonic />
+  </div>
+);
