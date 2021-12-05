@@ -1,11 +1,13 @@
 import React, { ReactElement } from 'react';
 
+import { Link } from 'react-scroll';
+
 import s from './nav.module.scss';
 
 export const Nav = (): ReactElement => (
   <div className={s.nav}>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contacts">Contacts</a>
+    <Link to="skills">Skills</Link>
+    <Link to="projects">Projects</Link>
+    <Link to="contacts">Contacts</Link>
   </div>
 );
