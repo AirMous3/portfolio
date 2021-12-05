@@ -8,16 +8,19 @@
   margin-bottom: 20px;
   padding: 20px;
   color: white;
-  text-align: center;
   box-sizing: border-box;
 
   span {
+    display: inherit;
+    align-items: center;
     margin-top: 15px;
     min-height: 200px;
-    border: 1px solid hsla(0, 0%, 40%, .3);
     background-color: #222;
     padding: 10px;
     color: #bbb;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 0.5px;
   }
 }
 

@@ -21,7 +21,6 @@
 }
 
 .contactPage {
-  width: 300px;
   padding: 50px;
   border: 1px solid rgba(102, 102, 102, 0.3);
   border-radius: 5px;
@@ -31,6 +30,8 @@
   position: relative;
   box-shadow: 3px 15px 100px 30px rgba(255, 255, 255, .1);
   animation: blink 3.0s linear infinite;
+  font-style: italic;
+  letter-spacing: 0.3px;
 
 }
 
@@ -45,13 +46,6 @@
   100% {
     box-shadow: 3px 15px 100px 30px rgba(255, 255, 255, .2);
   }
-}
-
-.quickContact {
-  width: 100%;
-  text-align: center;
-  flex: 1 1;
-
 }
 
 .imageWrapper {

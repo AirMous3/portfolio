@@ -3,9 +3,11 @@ import React, { ReactElement } from 'react';
 import Slider from 'react-slick';
 
 import counter from '../../../assets/image/workIcons/counter.png';
+import noteBook from '../../../assets/image/workIcons/noteBook.png';
 import socialNetwork from '../../../assets/image/workIcons/socialNetwork.png';
 import somethingElse from '../../../assets/image/workIcons/someElse.png';
 import todolist from '../../../assets/image/workIcons/todo.png';
+import weatherCards from '../../../assets/image/workIcons/weather.png';
 import s from '../works.module.scss';
 
 export const SimpleSlider = (): ReactElement => {
@@ -86,7 +88,7 @@ export const SimpleSlider = (): ReactElement => {
           </a>
         </div>
         <div className={s.slide}>
-          <a href="https://github.com/AirMous3/social" target="_blank" rel="noreferrer">
+          <a href="https://github.com/AirMous3/counter" target="_blank" rel="noreferrer">
             <div className={s.image}>
               <img src={counter} alt="counterImage" />
             </div>
@@ -101,6 +103,57 @@ export const SimpleSlider = (): ReactElement => {
                 <div>
                   <div className={s.techName}>TECHNOLOGIES</div>
                   <div className={s.techDescription}>React, Redux, TS.</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className={s.slide}>
+          <a
+            href="https://github.com/AirMous3/NybleCraft_Testovoe"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={s.image}>
+              <img src={noteBook} alt="noteBookImage" />
+            </div>
+
+            <div className={s.descriptionWrapper}>
+              <h3>NoteBook</h3>
+
+              <div className={s.description}>
+                <div>
+                  React Web application that allows create notes, edit, delete, filter by
+                  tag.
+                </div>
+                <div>
+                  <div className={s.techName}>TECHNOLOGIES</div>
+                  <div className={s.techDescription}>React, TS, SASS.</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className={s.slide}>
+          <a
+            href="https://github.com/AirMous3/InnoTechSolution"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={s.image}>
+              <img src={weatherCards} alt="weatherCardsImage" />
+            </div>
+
+            <div className={s.descriptionWrapper}>
+              <h3>WeatherCards</h3>
+
+              <div className={s.description}>
+                <div>React Web application that allows add city weather cards.</div>
+                <div>
+                  <div className={s.techName}>TECHNOLOGIES</div>
+                  <div className={s.techDescription}>
+                    React, Redux, Redux-thunk, TS, Axios, Formik, Ant Design.
+                  </div>
                 </div>
               </div>
             </div>
