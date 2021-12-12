@@ -5,7 +5,7 @@ import s from './works.module.scss';
 
 export const Works = (): ReactElement => (
   <section id="projects" className={`${s.main} section`}>
-    <div>
+    <div className="container">
       <h2 className={s.title}>MY WORKS</h2>
 
       <SimpleSlider />

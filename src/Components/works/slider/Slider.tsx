@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 
 import counter from '../../../assets/image/workIcons/counter.png';
 import noteBook from '../../../assets/image/workIcons/noteBook.png';
+import search from '../../../assets/image/workIcons/searchForBooks.png';
 import socialNetwork from '../../../assets/image/workIcons/socialNetwork.png';
 import somethingElse from '../../../assets/image/workIcons/someElse.png';
 import todolist from '../../../assets/image/workIcons/todo.png';
@@ -14,6 +15,8 @@ export const SimpleSlider = (): ReactElement => {
   const settings = {
     dots: true,
     infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -32,6 +35,7 @@ export const SimpleSlider = (): ReactElement => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrows: false,
         },
       },
     ],
@@ -56,7 +60,8 @@ export const SimpleSlider = (): ReactElement => {
                 <div>
                   <h4 className={s.techName}>TECHNOLOGIES</h4>
                   <p className={s.techDescription}>
-                    React, Redux, Redux-thunk, TS, Axios, Formik, Material UI.
+                    React, Redux, Redux-thunk, TS, Axios, Formik, Material UI,
+                    React-router.
                   </p>
                 </div>
               </div>
@@ -160,7 +165,35 @@ export const SimpleSlider = (): ReactElement => {
           </a>
         </div>
         <div className={s.slide}>
-          <a href="https://github.com/AirMous3/social" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/AirMous3/future_group"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={s.image}>
+              <img src={search} alt="searchForBooksImage" />
+            </div>
+
+            <div className={s.descriptionWrapper}>
+              <h3>Search For Books</h3>
+
+              <div className={s.description}>
+                <div>
+                  React Web application that allows search books and filter them by
+                  categories or sorting by relevance
+                </div>
+                <div>
+                  <div className={s.techName}>TECHNOLOGIES</div>
+                  <div className={s.techDescription}>
+                    React, Redux, Redux-thunk, TS, Axios, Ant Design, SASS, React-router,
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className={s.slide}>
+          <a href="https://github.com/AirMous3" target="_blank" rel="noreferrer">
             <div className={s.image}>
               <img src={somethingElse} alt="somethingElseImage" />
             </div>
