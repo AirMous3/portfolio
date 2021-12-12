@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b65fb165.chunk.css",
-    "main.js": "/portfolio/static/js/main.59122560.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.59122560.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bc428d2e.chunk.css",
+    "main.js": "/portfolio/static/js/main.6576e3dd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6576e3dd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
-    "static/css/2.b183c589.chunk.css": "/portfolio/static/css/2.b183c589.chunk.css",
+    "static/css/2.25ef7c8d.chunk.css": "/portfolio/static/css/2.25ef7c8d.chunk.css",
     "static/js/2.990e14b4.chunk.js": "/portfolio/static/js/2.990e14b4.chunk.js",
     "static/js/2.990e14b4.chunk.js.map": "/portfolio/static/js/2.990e14b4.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/2.b183c589.chunk.css.map": "/portfolio/static/css/2.b183c589.chunk.css.map",
-    "static/css/main.b65fb165.chunk.css.map": "/portfolio/static/css/main.b65fb165.chunk.css.map",
+    "static/css/2.25ef7c8d.chunk.css.map": "/portfolio/static/css/2.25ef7c8d.chunk.css.map",
+    "static/css/main.bc428d2e.chunk.css.map": "/portfolio/static/css/main.bc428d2e.chunk.css.map",
     "static/js/2.990e14b4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.990e14b4.chunk.js.LICENSE.txt",
     "static/media/1000px.c4fe05d3.png": "/portfolio/static/media/1000px.c4fe05d3.png",
     "static/media/12.03614a86.gif": "/portfolio/static/media/12.03614a86.gif",
@@ -20,7 +20,8 @@
     "static/media/SonicContacts.fb32942e.png": "/portfolio/static/media/SonicContacts.fb32942e.png",
     "static/media/counter.3ea03e86.png": "/portfolio/static/media/counter.3ea03e86.png",
     "static/media/noteBook.71da56fa.png": "/portfolio/static/media/noteBook.71da56fa.png",
-    "static/media/index.css": "/portfolio/static/media/slick.c94f7671.ttf",
+    "static/media/searchForBooks.e20c18ce.png": "/portfolio/static/media/searchForBooks.e20c18ce.png",
+    "static/media/index.scss": "/portfolio/static/media/slick.c94f7671.ttf",
     "static/media/socialNetwork.d3ca8775.png": "/portfolio/static/media/socialNetwork.d3ca8775.png",
     "static/media/someElse.4ea2174a.png": "/portfolio/static/media/someElse.4ea2174a.png",
     "static/media/todo.8b63407a.png": "/portfolio/static/media/todo.8b63407a.png",
@@ -28,9 +29,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0bf68c44.js",
-    "static/css/2.b183c589.chunk.css",
+    "static/css/2.25ef7c8d.chunk.css",
     "static/js/2.990e14b4.chunk.js",
-    "static/css/main.b65fb165.chunk.css",
-    "static/js/main.59122560.chunk.js"
+    "static/css/main.bc428d2e.chunk.css",
+    "static/js/main.6576e3dd.chunk.js"
   ]
 }
