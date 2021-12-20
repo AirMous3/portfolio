@@ -13,7 +13,11 @@ export const Main = (): ReactElement => (
         <span>Hi there</span>
         <p>I'm ILYA HOLAKHAU</p>
         <h1>
-          <ReactTypingEffect staticText="Front" text="- End developer" cursor="_" />
+          <ReactTypingEffect
+            text="Front - End developer"
+            cursor="_"
+            eraseDelay={700000}
+          />
         </h1>
       </div>
 
