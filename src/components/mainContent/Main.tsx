@@ -1,5 +1,7 @@
 import React, { ReactElement } from 'react';
 
+import ReactTypingEffect from 'react-typing-effect';
+
 import redSonic from '../../assets/image/mainLogo/RedSonic.png';
 
 import s from './main.module.scss';
@@ -10,7 +12,9 @@ export const Main = (): ReactElement => (
       <div className={s.text}>
         <span>Hi there</span>
         <p>I'm ILYA HOLAKHAU</p>
-        <h1>Front-End developer</h1>
+        <h1>
+          <ReactTypingEffect staticText="Front" text="- End developer" cursor="_" />
+        </h1>
       </div>
 
       <div className={s.photo}>
